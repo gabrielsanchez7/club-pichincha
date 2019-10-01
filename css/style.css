@@ -6112,7 +6112,7 @@ FOOTER
 
 .product-details-full {
 	background-color: #eaeaea;
-	padding: 40px 0;
+	padding: 30px 0;
 	margin-top: -1px;
 }
 
@@ -9324,7 +9324,9 @@ RESPONSIVE
 	background-repeat: no-repeat!important;
 	background-position: top right!important;
 	background-size: 100% auto!important;
-	background: #000 url(../images/bg-login.jpg) fixed;
+	background: #005daa;
+	margin-top: 5%;
+/*	background: #000 url(../images/bg-login.jpg) fixed;*/
 }
 
 .header.style3 .main-menu > li > a:hover::after,
