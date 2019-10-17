@@ -248,7 +248,7 @@ input[type="submit"] {
 	transition: all 0.3s ease 0s;
 	background: transparent;
 	position: relative;
-	background-color: #005daa;
+	background-color: #d45a47;
 	font-size: 12px;
 	border: none;
 }
@@ -1354,7 +1354,7 @@ blockquote.style2:after {
 }
 
 .mini-cart .count {
-	background-color: #00aeef;
+	background-color: #d45a47;
 	border-radius: 50%;
 	color: #fff;
 	font-size: 10px;
@@ -1383,16 +1383,16 @@ blockquote.style2:after {
 }
 
 .mini-cart .group-button .check-out {
-	border: 1px solid #666;
-	background-color: transparent;
-	color: #222;
+	border: 1px solid #222d57;
+	background-color: #222d57;
+	color: #fff;
 	padding: 15px 0px;
 }
 
 .mini-cart .group-button .check-out:hover {
-	background-color: #005daa;
-	color: #fff;
-	border-color: #005daa;
+	background-color: #e5e5e5;
+	color: #333;
+	border-color: #e5e5e5;
 }
 
 /* BOX CONTROL*/
@@ -3586,7 +3586,7 @@ DS .product-list .product-item {
 .tagcloud .activo,
 .tagcloud a:hover {
 	color: #fff;
-	background-color: #005daa;
+	background-color: #00a8c4;
 }
 
 .widget_price_filter .price_slider_wrapper {
@@ -3909,7 +3909,7 @@ ICON
 }
 
 .element-icon.style2 {
-	border: 1px dashed #bcbcbc;
+	border: 1px dashed #d45a47;
 	padding: 48px 0;
 	text-align: center;
 	display: table;
@@ -4755,7 +4755,7 @@ FOOTER
 	left: 10px;
 	margin: 0 -30px -15px 0;
 	width: 47px;
-	background-color: #7d7b7b;
+	background-color: #d45a47;
 }
 
 .section-title .sub-title {
@@ -5551,7 +5551,7 @@ FOOTER
 	width: 0px;
 	height: 2px;
 	display: block;
-	background-color: #005daa;
+	background-color: #d45a47;
 	margin: 0 auto;
 	margin-top: 8px;
 	content: '';
@@ -5669,7 +5669,7 @@ FOOTER
 
 .banner-text .button {
 	margin-top: 35px;
-	background-color: #005daa;
+	background-color: #d45a47;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -5677,7 +5677,8 @@ FOOTER
 }
 
 .banner-text .button:hover {
-	background-color: #005daa;
+	background-color: #e5e5e5;
+	color: #333;
 }
 
 .banner-text.style2 .title {
@@ -6522,7 +6523,7 @@ FOOTER
 	display: block;
 	width: 0%;
 	margin-top: 3px;
-	background-color: #222;
+	background-color: #d45a47;
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 }
@@ -7838,7 +7839,7 @@ BLOG PAGE
 	z-index: 9999;
 	right: 10px;
 	bottom: 32px;
-	background-color: #005daa;
+	background-color: #00a8c4;
 	display: none;
 	color: #fff;
 	text-align: center;
@@ -9305,7 +9306,7 @@ RESPONSIVE
 }
 
 .basket {
-	background: #00aeef;
+	background: #00a8c4;
 	border-radius: 100%;
 	height: 24px;
 	line-height: 24px;
@@ -9396,5 +9397,5 @@ RESPONSIVE
 
 .favorito:hover {
 	color: #fff;
-	background: #00aeef;
+	background: #00a8c4;
 }
