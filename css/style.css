@@ -2672,7 +2672,14 @@ blockquote.style2:after {
 	-webkit-transition: padding 0.5s ease 0s;
 	-o-transition: padding 0.5s ease 0s;
 	transition: padding 0.5s ease 0s;
-	background-color: #005daa;
+	background-image: url("../images/pichinchaHead2.png");
+	background-image: no-repeat;
+	background-image: fixed;
+	background-image: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .header.ontop .main-header {
@@ -4132,9 +4139,16 @@ FOOTER
 -----------------------------------*/
 
 .footer {
-	background-color: #222d57;
+	background-image: url(../images/pichicnha2Foot.png);
 	color: #fff;
 	padding-top: 50px;
+	background-image: no-repeat;
+	background-image: fixed;
+	background-image: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /*.footer .flex-flow{
@@ -9383,6 +9397,14 @@ RESPONSIVE
 
 #header {
 	background: #005daa;
+	background-image: url("../images/pichinchaHead2.png");
+	background-image: no-repeat;
+	background-image: fixed;
+	background-image: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .favorito {
