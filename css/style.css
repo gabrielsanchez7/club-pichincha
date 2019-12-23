@@ -7748,12 +7748,19 @@ BLOG PAGE
 	left: -100%;
 	width: 320px;
 	bottom: 0;
-	background-color: #005daa;
 	z-index: 100;
 	-webkit-transition: all 0.3s ease 0s;
 	-o-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
 	z-index: 100;
+	background-image: url("../images/menu-respons.png");
+	background-image: no-repeat;
+	background-image: fixed;
+	background-image: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .box-mobile-menu.open {
@@ -9396,7 +9403,6 @@ RESPONSIVE
 
 
 #header {
-	background: #005daa;
 	background-image: url("../images/pichinchaHead2.png");
 	background-image: no-repeat;
 	background-image: fixed;
@@ -9425,4 +9431,20 @@ RESPONSIVE
 
 .style-10 {
 	background: #425ca8;
+}
+
+@media (max-width: 680px) {
+	#header {
+		background-image: url("../images/head-respons.png");
+		background-image: no-repeat;
+		background-image: fixed;
+		background-image: center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.footer{
+		background-image: url("../images/footer-respons.png");
+	}
 }
