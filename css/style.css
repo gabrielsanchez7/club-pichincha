@@ -4139,6 +4139,7 @@ FOOTER
 -----------------------------------*/
 
 .footer {
+	background-position: top;
 	background-image: url(../images/pichicnha2Foot.png);
 	color: #fff;
 	padding-top: 50px;
@@ -9344,12 +9345,30 @@ RESPONSIVE
 }
 
 .fondo {
-	background-repeat: no-repeat!important;
-	background-position: top right!important;
-	background-size: 100% auto!important;
-	background: #005daa;
-	margin-top: 5%;
-	/*	background: #000 url(../images/bg-login.jpg) fixed;*/
+	background-image: no-repeat;
+		background-image: fixed;
+		background-image: center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	margin-top: 4%;
+	background-image: url("../images/bg-login.png");
+}
+
+@media (max-width: 850px) {
+	.fondo{
+		height: 730px;
+		background-position: top;
+		background-image: no-repeat;
+		background-image: fixed;
+		background-image: center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-image: url("../images/bg-login-respons.png");
+	}
 }
 
 .header.style3 .main-menu > li > a:hover::after,
@@ -9403,6 +9422,7 @@ RESPONSIVE
 
 
 #header {
+	background-position: top;
 	background-image: url("../images/pichinchaHead2.png");
 	background-image: no-repeat;
 	background-image: fixed;
@@ -9435,6 +9455,7 @@ RESPONSIVE
 
 @media (max-width: 680px) {
 	#header {
+		background-position: top;
 		background-image: url("../images/head-respons.png");
 		background-image: no-repeat;
 		background-image: fixed;
