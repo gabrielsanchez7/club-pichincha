@@ -2864,7 +2864,7 @@ PRODUCT
 }
 
 .product-item .product-name {
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 	/*	margin-top: 5px;*/
 	white-space: nowrap;
 	overflow: hidden;
@@ -8476,6 +8476,9 @@ table {
 	margin-top: 230px!important;
 }
 
+.margin-bottom-15 {
+	margin-bottom: 15px!important;
+}
 .margin-bottom-20 {
 	margin-bottom: 20px!important;
 }
@@ -9468,4 +9471,66 @@ RESPONSIVE
 	.footer{
 		background-image: url("../images/footer-respons.png");
 	}
+}
+@media (max-width: 630px) {
+	.pnt-resp{
+		display: none;
+	}
+}
+.wdt-100porc{
+	width: 100% !important;
+}
+.color-nr{
+	color: #004c69;
+}
+.fnt-600{
+	font-weight: 600;
+}
+.mrg-0{
+	margin: 0px ;
+}
+.dis-betw{
+	display: flex;
+	justify-content: space-between;
+}
+.color-whit{
+	color: #fff;
+}
+.fnt-32{
+	font-size: 32px;
+}
+.pos-reltv{
+	position: relative;
+}
+.txt-rigt{
+	text-align: right;
+}
+.lst-sty{
+	list-style: none;
+}
+.box-bann{
+	position: absolute;
+	top: 35px;
+	right: 170px;
+	padding: 20px 30px;
+    background-color: #004c69;
+}
+
+.header.style3.ontop .pnt-resp{
+	display: none;
+}
+.header.style3.ontop .main-menu > li > .color-whit{
+	display: none;
+}
+
+li.info-pts {
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 11px 18px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-right: 20px;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
 }
