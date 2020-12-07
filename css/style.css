@@ -8479,6 +8479,7 @@ table {
 .margin-bottom-15 {
 	margin-bottom: 15px!important;
 }
+
 .margin-bottom-20 {
 	margin-bottom: 20px!important;
 }
@@ -9273,7 +9274,7 @@ RESPONSIVE
 		visibility: inherit;
 	}
 
-	.txt-desk{
+	.txt-desk {
 		display: none;
 	}
 
@@ -9334,6 +9335,7 @@ RESPONSIVE
 	color: #7d7b7b;
 	font-size: 12px;
 	margin-bottom: 15px;
+	text-decoration: line-through;
 }
 
 .basket {
@@ -9354,18 +9356,18 @@ RESPONSIVE
 
 .fondo {
 	background-image: no-repeat;
-		background-image: fixed;
-		background-image: center;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
+	background-image: fixed;
+	background-image: center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	margin-top: 4%;
 	background-image: url("../images/bg-login.png");
 }
 
 @media (max-width: 850px) {
-	.fondo{
+	.fondo {
 		height: 730px;
 		background-position: top;
 		background-image: no-repeat;
@@ -9473,53 +9475,65 @@ RESPONSIVE
 		-o-background-size: cover;
 		background-size: cover;
 	}
-	.footer{
+	.footer {
 		background-image: url("../images/footer-respons.png");
 	}
 }
+
 @media (max-width: 630px) {
-	.pnt-resp{
+	.pnt-resp {
 		display: none;
 	}
-	.txt-rg{
+	.txt-rg {
 		text-align: right;
 	}
-	.box-bann{
+	.box-bann {
 		display: none;
 	}
 }
-.wdt-100porc{
+
+.wdt-100porc {
 	width: 100% !important;
 }
-.color-nr{
+
+.color-nr {
 	color: #004c69;
 }
-.fnt-600{
+
+.fnt-600 {
 	font-weight: 600;
 }
-.mrg-0{
-	margin: 0px ;
+
+.mrg-0 {
+	margin: 0px;
 }
-.dis-betw{
+
+.dis-betw {
 	display: flex;
 	justify-content: space-between;
 }
-.color-whit{
+
+.color-whit {
 	color: #fff;
 }
-.fnt-32{
+
+.fnt-32 {
 	font-size: 32px;
 }
-.pos-reltv{
+
+.pos-reltv {
 	position: relative;
 }
-.txt-rigt{
+
+.txt-rigt {
 	text-align: right;
 }
-.lst-sty{
+
+.lst-sty {
 	list-style: none;
 }
-.box-bann{
+
+.box-bann {
 	position: absolute;
 	top: 0px;
 	right: 170px;
@@ -9528,10 +9542,11 @@ RESPONSIVE
 	margin-top: 2%;
 }
 
-.header.style3.ontop .pnt-resp{
+.header.style3.ontop .pnt-resp {
 	display: none;
 }
-.header.style3.ontop .main-menu > li > .color-whit{
+
+.header.style3.ontop .main-menu > li > .color-whit {
 	display: none;
 }
 
@@ -9546,6 +9561,71 @@ li.info-pts {
 	-moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
 	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
 }
-.mrg-top20{
+
+.mrg-top20 {
 	margin-top: 20px;
+}
+
+.oferta {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 65px;
+	height: 65px;
+	text-align: center;
+	background-color: #e23c26;
+	color: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	padding-top: 22px;
+	word-break: break-word;
+	line-height: normal;
+	font-size: 15px;
+	font-weight: 600;
+	z-index: 5;
+}
+
+.nuevo {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	width: auto;
+	text-align: center;
+	background-color: #09a709;
+	color: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 0 20px 20px 0;
+	padding: 10px 20px;
+	word-break: break-word;
+	line-height: normal;
+	font-size: 15px;
+	font-weight: 600;
+	z-index: 5;
+}
+
+.otro {
+	position: absolute;
+	bottom: 15px;
+	right: 0;
+	width: auto;
+	text-align: center;
+	background-color: #0e4fab;
+	color: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 20px 0 0 20px;
+	padding: 10px 20px;
+	word-break: break-word;
+	line-height: normal;
+	font-size: 15px;
+	font-weight: 600;
+	z-index: 5;
 }
