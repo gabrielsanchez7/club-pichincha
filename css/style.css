@@ -251,6 +251,7 @@ input[type="submit"] {
     background-color: #00a8c4;
     font-size: 12px;
     border: none;
+    font-weight: 600;
 }
 
 .button:hover,
@@ -4750,7 +4751,7 @@ FOOTER
 /* SECTION TITLE*/
 
 .section-title {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     position: relative;
 }
 
@@ -9752,4 +9753,22 @@ li.info-pts {
     color: green;
     font-weight: 600;
     margin-top: 5px;
+}
+
+.user-name {
+    display: inline-block;
+    margin: 12px 30px 12px 0;
+    font-weight: 600;
+    color: #fff;
+}
+
+.header.ontop .user-name {
+    display: none;
+}
+
+.box-persona {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
 }

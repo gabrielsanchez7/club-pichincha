@@ -18,6 +18,12 @@
 
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400italic,400,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,100italic,300italic,400,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <style>
+        .chosen-container {
+            width: 100%!important;
+        }
+
+    </style>
 </head>
 
 <body class="home">
@@ -111,7 +117,7 @@
                             </div>
                         </div>
                         <ul class="boutique-nav main-menu clone-main-menu">
-                            <li class="active menu-item-has-children item-megamenu">
+                            <li>
                                 <a href="index.html">Inicio</a>
                             </li>
                             <li class="">
@@ -123,10 +129,10 @@
                             <li class="">
                                 <a href="puntos.html">Mis puntos</a>
                             </li>
-                            <li class="">
+                            <li class="active menu-item-has-children item-megamenu">
                                 <a href="cotiza.html">Cotiza tu ticket aéreo</a>
                             </li>
-                            <li class="">
+                            <li>
                                 <a href="contacto.html">Contáctanos</a>
                             </li>
                         </ul>
@@ -136,197 +142,182 @@
         </div>
     </header>
     <div class="container">
-        <br>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="banner-text">
-                    <div class="image">
-                        <a class="banner-opacity" href="#"><img src="images/slides/1.png" alt=""></a>
-                    </div>
-                    <div class="content-text">
-                        <h3 class="title">CATÁLOGO DE<span>PRODUCTOS</span></h3>
+        <div class="section-title style6 text-center margin-top-40">
+            <h3>Cotiza tu ticket aéreo</h3>
+            <span class="sub-title"></span>
+        </div>
+        <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600"><span class="icon pe-7s-note2" style="font-size: 25px"></span> Ingresa la información para generar la cotización:</h4>
 
-                        <a href="productos.html" class="button">Descubrir catálogo</a>
-                    </div>
-                </div>
+        <div class="row margin-top-20">
+            <div class="col-md-3">
+                <label for="">Tipo</label><br>
+                <select name="" class="normal" id="" style="width: 100%;height: 40px">
+										<option value="" class="normal">Ida y vuelta</option>
+										<option value="" class="normal">Sólo ida</option>
+										
+									</select>
             </div>
-            <div class="col-sm-6">
-                <div class="banner-text">
-                    <div class="image">
-                        <a class="banner-opacity" href="#"><img src="images/slides/2.png" alt=""></a>
-                    </div>
-                    <div class="content-text">
-                        <h3 class="title">BENEFICIOS <span>CLUB PICHINCHA</span></h3>
-                        <a href="experiencias.html" class="button">Descubrir experiencias</a>
-                    </div>
-                </div>
+            <div class="col-md-3">
+                <label for="">Clase</label><br>
+                <select name="" class="normal" id="" style="width: 100%;height: 40px">
+										<option value="" class="normal">Economy</option>
+										<option value="" class="normal">Premium economy</option>
+										<option value="" class="normal">Premium business</option>
+										
+									</select>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    <label for="">Origen</label><br>
+                    <input type="text" style="width: 100%">
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    <label for="">Destino</label><br>
+                    <input value="" type="text" style="width: 100%">
+                </p>
             </div>
 
         </div>
         <div class="row margin-top-20">
-            <div class="upsell-products">
-                <div class="section-title style6 text-center margin-bottom-0 ">
-                    <h3>Destacados</h3>
-                    <span class="sub-title"></span>
-                </div>
-                <div class="margin-top-20 ">
-                    <div class="tab-product">
-                        <ul class="box-tabs nav-tab tab-owl-fade-effect">
-                            <li class="active"><a data-animated='fadeInUp' data-toggle="tab" href="#tab-1">Productos</a></li>
-                            <li><a data-animated='slideInLeft' data-toggle="tab" href="#tab-2">Experiencias</a></li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-container">
-                                <div id="tab-1" class="tab-panel active">
-                                    <ul class="owl-carousel" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}' data-autoplay="true" data-loop="true" data-items="4" data-dots="false" data-nav="false" data-margin="30">
-                                        <li class="product-item style3">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detail-prod.html"><img src="images/products/1.jpg" alt=""></a>
+            <div class="col-md-3">
+                <p>
+                    <label for="">Fecha ida</label><br>
+                    <input type="date" style="width: 100%">
+                </p>
+            </div>
+            <div class="col-md-3">
+                <p>
+                    <label for="">Fecha vuelta</label><br>
+                    <input value="" type="date" style="width: 100%">
+                </p>
+            </div>
+            <div class="col-md-3">
+                <label for="">Pasajeros</label><br>
+                <select name="" class="normal" id="" style="width: 100%;height: 40px">
+										<option value="" class="normal">1 pasajero</option>
+										<option value="" class="normal">2 pasajero</option>
+										<option value="" class="normal">3 pasajero</option>
+										
+									</select>
+            </div>
+            <div class="col-md-3 text-right">
+                <p>
+                    <label for=""></label><br>
+                    <input class="button add_to_cart_button" type="button" style="width: 100%" value="Siguiente" onclick="mostrar('pasajeros')">
+                </p>
+            </div>
+        </div>
+        <div id="pasajeros" style="display: none">
+            <h4 style="border-bottom: 1px solid #e5e5e5;line-height: 45px;font-weight: 600"><span class="icon pe-7s-user" style="font-size: 25px"></span> ¿Quiénes viajan?</h4>
+            <div class="row margin-top-40">
+                <div class="col-md-12">
+                    <div class="box-persona">
+                        <p><label for="" style="text-decoration: underline;margin-left: 15px">Persona 1</label></p>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Nombres</label><br>
+                                <input value="" type="text" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Apellidos</label><br>
+                                <input value="" type="text" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Tipo de documento</label><br>
+                                <select name="" class="normal" id="" style="width: calc(100% - 30px);height: 40px">
+										<option value="" class="normal">lorem</option>
+										<option value="" class="normal">lorem</option>
+										<option value="" class="normal">lorem</option>
+										
+									</select>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Nº de documento</label><br>
+                                <input value="" type="text" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Fecha de nacimiento</label><br>
+                                <input value="" type="date" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Persona con discapacidad o tercera edad</label><br>
+                                <input value="" type="checkbox" value="dis" name="tipo"> Persona con discapacidad <br>
+                                <input value="" type="checkbox" value="mayor" name="tipo"> Persona mayor a 65 años <br>
 
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <p class="text-uppercase marca">MARCA</p>
-                                                    <h3 class="product-name fnt-600"><a href="detail-prod.html">Nombre producto</a></h3>
-                                                    <p class="margin-0">Cod. 65282244</p>
-                                                    <span class="price" style="font-weight: 600">500 Puntos</span>
-                                                    <a class="button add_to_cart_button" data-toggle="modal" data-target="#carrito">AGREGAR AL CARRITO</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="product-item style3">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detail-prod.html"><img src="images/products/1.jpg" alt=""></a>
-
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <p class="text-uppercase marca">Marca</p>
-                                                    <h3 class="product-name fnt-600"><a href="detail-prod.html">Nombre producto</a></h3>
-                                                    <p class="margin-0">Cod. 65282244</p>
-                                                    <span class="price" style="font-weight: 600">500 Puntos</span>
-                                                    <a class="button add_to_cart_button" data-toggle="modal" data-target="#carrito">AGREGAR AL CARRITO</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="product-item style3">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detail-prod.html"><img src="images/products/1.jpg" alt=""></a>
-
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <p class="text-uppercase marca">MARCA</p>
-                                                    <h3 class="product-name fnt-600"><a href="detail-prod.html">Nombre producto123</a></h3>
-                                                    <p class="margin-0">Cod. 65282244</p>
-                                                    <span class="price" style="font-weight: 600">500 Puntos</span>
-                                                    <a class="button add_to_cart_button" data-toggle="modal" data-target="#carrito">AGREGAR AL CARRITO</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="product-item style3">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detail-prod.html"><img src="images/products/1.png" alt=""></a>
-
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <p class="text-uppercase marca">Marca</p>
-                                                    <h3 class="product-name fnt-600"><a href="detail-prod.html">Nombre producto</a></h3>
-                                                    <p class="margin-0">Cod. 65282244</p>
-                                                    <span class="price" style="font-weight: 600">500 Puntos</span>
-                                                    <a class="button add_to_cart_button" data-toggle="modal" data-target="#carrito">AGREGAR AL CARRITO</a><a class="favorito" data-toggle="modal" data-target="#favorito"><i class="fa fa-heart"></i></a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div id="tab-2" class="tab-panel">
-                                    <ul class="owl-carousel" data-responsive='{"0":{"items":1},"600":{"items":3},"1000":{"items":4}}' data-autoplay="true" data-loop="true" data-items="4" data-dots="false" data-nav="false" data-margin="30">
-                                        <li class="product-item">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detalle.html"><img src="images/experiencias/1.jpg" alt=""></a>
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <h3 class="product-name fnt-600"><a href="detalle.html">Nombre experiencia</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="product-item">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detalle.html"><img src="images/experiencias/1.jpg" alt=""></a>
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <h3 class="product-name fnt-600"><a href="detalle.html">Nombre experiencia</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="product-item">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detalle.html"><img src="images/experiencias/1.jpg" alt=""></a>
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <h3 class="product-name fnt-600"><a href="detalle.html">Nombre experiencia</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="product-item">
-                                            <div class="product-inner">
-                                                <div class="product-thumb has-back-image">
-                                                    <a href="detalle.html"><img src="images/experiencias/1.png" alt=""></a>
-                                                    <div class="gorup-button">
-                                                        <a class="quick-view" data-toggle="modal" data-target="#compra"><i class="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-                                                <div class="product-info">
-                                                    <h3 class="product-name fnt-600"><a href="detalle.html">Nombre experiencia</a></h3>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-12">
+                    <div class="box-persona">
+                        <p><label for="" style="text-decoration: underline;margin-left: 15px">Persona 2</label></p>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Nombres</label><br>
+                                <input value="" type="text" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Apellidos</label><br>
+                                <input value="" type="text" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Tipo de documento</label><br>
+                                <select name="" class="normal" id="" style="width: 100%;height: 40px">
+										<option value="" class="normal">lorem</option>
+										<option value="" class="normal">lorem</option>
+										<option value="" class="normal">lorem</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Nº de documento</label><br>
+                                <input value="" type="text" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Fecha de nacimiento</label><br>
+                                <input value="" type="date" style="width: 100%">
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                <label for="">Persona con discapacidad o tercera edad</label><br>
+                                <input value="" type="checkbox" value="dis" name="tipo"> Persona con discapacidad <br>
+                                <input value="" type="checkbox" value="mayor" name="tipo"> Persona mayor a 65 años <br>
 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-offset-9 text-right">
+                    <p>
+                        <label for=""></label><br>
+                        <a class="button add_to_cart_button" data-toggle="modal" data-target="#cotizacion" style="width: 100%">COTIZAR</a>
+                    </p>
+                </div>
             </div>
+
         </div>
     </div>
-    <!-- Block list product-->
-    <div class="block-paralax3">
-        <div class="container">
-            <div class="section-content text-center">
-                <h3 class="sub-title title-white">CONTACTO</h3>
-                <p class="text-white">&#191;Tienes alguna duda o pregunta? <br> No dudes en escribirnos</p>
-                <a class="button  add_to_cart_button" href="contacto.html">Enviar mensaje</a>
-            </div>
-        </div>
-    </div>
+
     <footer class="footer">
         <div class="footer-top">
             <div class="container">
@@ -403,51 +394,51 @@
 
     </script>
     <!--	MODALS-->
-    <div class="modal fade" id="carrito" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal fade" id="cotizacion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
-            <div class="modal-content">
+            <div class="modal-content" id="enviar">
                 <div class="modal-header" style="padding: 20px 40px">
-                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-check" style="font-size: 25px;vertical-align: middle;"></span> Se agregó con éxito al carrito de compras</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-mail" style="font-size: 25px"></span> ¿A dónde enviamos tu cotización?</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
                 </div>
-                <div class="modal-body margin-bottom-20" style="padding: 20px 40px">
-                    <div class="widget widget_recent_product row">
+                <div class="modal-body " style="padding: 20px 40px">
+                    <div class="row">
                         <div class="col-md-12">
-                            <ul class="product-categories">
-                                <li>
-                                    <div class="product-thumb" style="position: relative">
-                                        <span class="basket">1</span>
-                                        <a><img alt="" src="images/products/1.png"></a>
-                                    </div>
-                                    <div class="product-info">
-                                        <p class="text-uppercase marca" style="margin: 0">Marca</p>
-                                        <h3 class="product-name fnt-600" style="margin-bottom: 5px;"><a href="detail-prod.html">Nombre producto</a></h3>
-                                        <p class="margin-0">Cod. 65282244</p>
-                                        <span class="price" style="font-weight: 600">500 Puntos</span>
+                            <h5 >La información que nos proporciones será fundamental para hacerte llegar la cotización e información relevante sobre tu viaje</h5>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="">Correo electrónico</label><br>
+                            <input value="" type="text" style="width: 100%">
+                        </div>
+                        <div class="col-md-12 margin-top-20">
+                            <label for="">Teléfono</label><br>
+                            <input value="" type="text" style="width: 100%">
+                        </div>
+                    </div>
+                    <div class="row text-center margin-top-20">
+                        <div class="col-md-12">
+                            <input type="button" class="button" onclick="mostrarModal('ok','enviar')" value="Solicitar cotización">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-content" id="ok" style="display: none">
+                <div class="modal-header" style="padding: 20px 40px">
+                    <h4 style="margin-bottom: 0;font-weight: 600;display: inline-block"><span class="icon pe-7s-check" style="font-size: 25px;vertical-align: middle;font-weight: bold;color: green"></span> ¡Gracias por tu cotización!</h4> <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: 3px">x</button>
+                </div>
+                <div class="modal-body " style="padding: 20px 40px">
+                    <div class="row  text-center">
+                        <div class="col-md-12">
+                            <h5 style="font-weight: 600">Dentro de las siguientes 48 horas nos estaremos comunicando contigo para darte información sobre tu cotización</h5>
+                            <h5 style="font-weight: 600">En cuanto llegue la cotización a tu correo, debes aprobarla respondiendo sobre el mismo correo.</h5>
+                            <p>* Es responsabilidad de quienes viajan tener todos los documentos necesarios para su destino</p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-12">
+                            <a class="button style-10" href="cotiza.html" >OK</a>
+                        </div>
+                    </div>
 
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row margin-bottom-20">
-                        <div class="col-md-6">
-                            <h5 style="font-weight: 600">Sub-total (2 productos):</h5>
-                        </div>
-                        <div class="col-md-6">
-                            <h5 style="font-weight: 600">1000 Puntos</h5>
-                        </div>
-                    </div>
-                    <div class="row text-center">
-                        <div class="col-md-12">
-                            <a class="button style-10" href="carrito.html">Ver mi carrito de compras</a>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row text-center">
-                        <div class="col-md-12">
-                            o <a data-dismiss="modal" style="text-decoration: underline;cursor: pointer">Seguir canjeando</a>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -501,7 +492,7 @@
         </div>
     </div>
 
-    <!-- Pop Ups -->
+    <!-- Popups -->
 
     <div class="modal fade" id="compra" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
         <div class="modal-dialog" role="document" style="z-index: 1041;margin-top: 100px;">
@@ -546,7 +537,15 @@
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/masonry.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
+    <script src="js/main.js"></script>
 
+    <script>
+        function mostrarModal(muestra, oculta) {
+            document.getElementById(muestra).style.display = 'block';
+            document.getElementById(oculta).style.display = 'none';
+        }
+
+    </script>
 </body>
 
 </html>
