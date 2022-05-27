@@ -9785,3 +9785,20 @@ li.info-pts {
         width: 800px;
     }
 }
+
+.sty-btn input[type="checkbox"] {
+    display: none;
+  }
+  
+  .sty-btn span {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #425ca8;
+    border-radius: 3px;
+    color: #425ca8;
+  }
+  
+  .sty-btn input[type="checkbox"]:checked + span {
+    background-color: #425ca8;
+    color: #fff;
+  }
